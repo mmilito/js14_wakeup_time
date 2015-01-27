@@ -1,0 +1,44 @@
+/* main CSS for Wakeup Time
+*/
+* {
+	display: box;
+}
+body {
+	background-color: #cccccc;
+} 
+.outerShell {
+	background-color: gray;
+	border:2px solid gray;
+	height: 500px;
+	width: 100%;
+	padding: 50px;
+}
+.innerShell {
+	background-color: black;
+	border: 2px solid black;
+	height: 300px;
+	width: 75%;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-left: 50px;
+}
+.clockScreen {
+	background-color: #800000;
+	border: 2px solid #800000;
+	height: 100px;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 75px;
+	padding-top: 75px;
+	padding-left: 75px;
+}
+.clockText {
+	text-align: center;
+	color:white;
+	font-size: 24px;
+	padding-bottom: 10px;
+	/*border: 1px solid white;*/
+}
+.
