@@ -7,38 +7,88 @@ body {
 	background-color: #cccccc;
 } 
 .outerShell {
+	position: absolute;
 	background-color: gray;
 	border:2px solid gray;
-	height: 500px;
-	width: 100%;
-	padding: 50px;
+	height: 400px;
+	width: 700px;
+	padding-bottom: 25px;
+	border-radius: 25px;
 }
 .innerShell {
+	position: absolute;
 	background-color: black;
 	border: 2px solid black;
 	height: 300px;
-	width: 75%;
+	width: 500px;
 	margin-top: 10px;
 	margin-left: 50px;
 	padding-top: 100px;
 	padding-left: 100px;
-	padding-left: 50px;
+	border-radius: 25px;
 }
 .clockScreen {
-	background-color: #800000;
-	border: 2px solid #800000;
-	height: 100px;
-	width: 50%;
-	margin-top: 10px;
-	margin-left: 75px;
-	padding-top: 75px;
-	padding-left: 75px;
+	position:absolute;
+	background-color: #6b0000;
+	border: 2px solid #6b0000;
+	height: 110px;
+	width: 300px;
+	top:140px;
+	left:150px;
+	border-radius: 25px;
+}
+.leftPMLabel{
+	display: inline-block;
+	position: relative;
+	color: white;
+	height: 20px;
+	width: 40px;
+	top: 50px;
+	left: -30px;
+}
+.leftAutoLabel{
+	display: inline-block;
+	position: relative;
+	color: white;
+	height: 20px;
+	width: 40px;
+	top: 100px;
 }
 .clockText {
+/*	font: telegraphic*/;
+	position: absolute;
+	display: inline-block;
 	text-align: center;
-	color:white;
-	font-size: 24px;
-	padding-bottom: 10px;
-	/*border: 1px solid white;*/
+	color:red;
+	font-size: 55px;
+	top: -20px;
+	left: 75px;
+	
 }
-.
+.button {
+	position: absolute;
+	border: none;
+	background-color: red;
+	height: 15px;
+	width: 15px;
+	top: 75px;
+	left: 20px;
+	border-radius: 50%;
+}
+.AM {
+	position: relative;
+	height: 20px;
+	width: 375px;
+	color: white;
+	top: 150px;
+	left:30px;
+
+}
+.FM {
+	position: relative;
+	height: 20px;
+	width: 375px;
+	color: white;
+	top: 160px;
+	left:30px;
+}
